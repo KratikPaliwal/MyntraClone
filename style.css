@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-section{
+    display: flex;
+    justify-content: space-around  ;
+    height: 50px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    color: #282C3F;
+    
+
+}
+
+.input-box{
+    width: 250px;
+    text-align: center;
+    height: 20px;
+    color: #BCC2C4;
+    border-color: transparent;
+}
+
+.logo-img{
+    position: relative;
+    top: 0%;
+}
+
+.super{
+    color: #FF7797  ;
+}
+
+.right-corner{
+    text-align: center;
+    font-weight: 100;
+    color: #3F484A;
+}
+
+.filter-div{
+    gap: 20px;
+    width: 200px;
+}
+
+.Recommanded-div{
+    position: absolute;
+    right: 0px;
+}
+
+.filter-para{
+    position: absolute;
+    left: 5px;
+}
+
+.left-div{
+    position: absolute;
+    left: 15px;
+}
+
+.display-section{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 55px;
+    gap: 20px;
+}
+
+.abc{
+    height: 500px;
+}
+
+.rating{
+    background-color: #F4F4F4;
+    position: relative;
+    left: 80px;
+    width: 80px;
+    bottom: 29px;
+
+}
+
+.detail-div{
+    position: relative;
+    left: 80px;
+    
+}
+
+.filter-div{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.shirt-div{
+    width: 200px;
+    height: 150px;
+    border: 2px solid #edeef2;
+    
+}
+
+.shirts-one{
+    display: flex;
+    gap: 5px;
+    justify-content: start;
+    position: relative;
+    left: 20px;
+
+}
+.display-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+.clearall{
+    color: #FF3F6C;
+}
+
+.Bandles-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.Recommanded-div{
+    position: relative;
+    height: 20px;
+}
+
+select{
+    background-color: transparent;
+    border: none;
+}
+
+
+
+.rating {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+
+.detail-div {
+    padding: 20px;
+  }
+  
+  .detail-div p {
+    margin-bottom: 10px;
+  }
+.original-price{
+    text-decoration: line-through;
+    color: #666;
+}
+
+.addtobag {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.addtobag:hover {
+    background-color: #3e8e41;
+  }
+
+a{
+    text-decoration: none;
+    color: black;
+}

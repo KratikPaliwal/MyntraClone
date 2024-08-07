@@ -1,0 +1,48 @@
+.product-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-container img {
+    margin-right: 20px;
+  }
+  
+  .details-div {
+    flex: 2;
+  }
+
+.main-div{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+.MRP{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    gap: 50px;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 68%;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  background-color: #FF3F6C;
+  color: #FFFFFF;
+  font-size: 15px;
+  bottom: 50%;
+
+}
+
+.final-border{
+  border-top: 1px solid black;
+}
+
+
+
